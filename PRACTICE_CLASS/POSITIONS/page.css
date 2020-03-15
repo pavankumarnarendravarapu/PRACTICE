@@ -1,0 +1,33 @@
+div:first-child{
+    font-size: 45px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: yellow;
+    text-align: center;
+    padding: 12px;
+}
+body{
+    margin: 0;
+}
+div:nth-child(2){
+    text-align: right;
+    background-color: aqua;
+    padding: 4px;
+    position: sticky;
+    top: 0;
+}
+div>a{
+    letter-spacing: 2px;
+    padding: 6px;
+}
+.h{
+    text-align: center;
+    padding: 4px;
+    background-color: yellow;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.g{
+    background: black;
+    padding-bottom: 120%;
+}

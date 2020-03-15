@@ -1,0 +1,65 @@
+
+
+body{
+	margin: 0
+}
+
+.menu{
+	text-align: right;
+    background: antiquewhite;
+    line-height: 40px;
+}
+.menu > a{
+	margin-right: 15px;
+    letter-spacing: 2px;
+    color: red;
+    font-size: 20px;
+}
+.footer{
+     bottom: 0;
+    position: fixed;
+    background: yellow;
+    width: 100%;
+    text-align: center;
+}
+.cont1 > div:first-child,.cont2 > div:first-child{
+   width: 70%;
+    display: inline-block;
+}
+.cont1 > div:last-child,.cont2 > div:last-child{
+	width: 29%;
+    display: inline-block;
+}
+@media screen and (max-width: 800px){
+      .header{
+	font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    background: yellow;
+}
+.menu > a{
+	margin-right: 10px;
+    letter-spacing: 3px;
+    color: blue;
+    font-size: 15px;
+}
+}
+
+@media screen and (min-width: 800px) and (max-width: 1100px){
+	  .header{
+	font-size: 50px;
+    font-style: italic;
+    text-align: center;
+    background: yellow;
+}
+}
+
+@media screen and (min-width: 1100px){
+	.header{
+	font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+    background: yellow;
+}
+}

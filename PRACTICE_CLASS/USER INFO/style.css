@@ -1,0 +1,38 @@
+header{
+    text-align: center;
+    background-color: green;
+    padding: 1px;
+}
+.lg{
+    margin-top: 90px;
+    font-size: 20px;
+}
+input[type=text], input[type=password] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+  }
+  .if{
+    text-align: center;
+    margin-top: 90px;
+    font-size: 20px;
+  }
+  table,th,td{
+      margin-top: 40px;
+      border: 1px solid black;
+      border-collapse: collapse;
+      text-align: center;
+  }
+  table{
+      width: 100%;
+  }
+  .or{
+      display: inline;
+      display: table; 
+    margin: 0 auto;
+    margin-top: 40px;s
+  }
+  .or ul ol{
+      display: inline;
+  }

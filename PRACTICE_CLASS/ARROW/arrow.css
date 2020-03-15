@@ -1,0 +1,24 @@
+.board{
+    height: 500px;
+    width: 600px;
+    border: 2px solid black;
+    position: relative;
+}
+.balloon{
+    height: 80px;
+    width: 80px;
+    border: 1px solid red;
+    border-radius: 50%;
+    position: absolute;
+    top: 180px;
+    left: 450px;
+    display: inline-block;
+
+}
+.arrow{
+    border: 1px solid blue;
+    width: 10%;
+    position: absolute;
+    display: inline-block;
+    top: 210px;
+}

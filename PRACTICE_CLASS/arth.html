@@ -1,0 +1,67 @@
+<P>
+    <b><i>No1:</i></b><input id='no1' />
+</P>
+
+<P>
+    <b><i>No2:</i></b><input id='no2' />
+</P>
+<P>
+    <input type='button' value='Add' onclick="fnArth('A')" />
+    <input type='button' value='Sub' onclick="fnArth('S')" />
+    <input type='button' value='Mul' onclick="fnArth('M')" />
+    <input type='button' value='Div' onclick="fnArth('D')" />
+    <input type='button' value='MOd' onclick="fnArth('P')" />
+</P>
+<p>
+    <span></span>
+</p>
+<script>
+    function fnArth(opt) {
+        //get refs
+        var no1Ref = document.getElementById('no1');
+        var no2Ref = document.getElementById('no2');
+        //get values
+        var n1 = Number(no1Ref.value);
+        var n2 = parseInt(no2Ref.value);
+        /*
+                if (opt == 'A') {
+        
+                }
+                else if (opt == 'S') {
+        
+                }
+                else if (opt == 'M') {
+        
+                }
+                else if (opt == 'D') {
+        
+                }
+                else{
+        
+                }
+        */
+        var res = '';
+        switch (opt) {
+
+            case 'A':
+                res = n1 + n2;
+                break;
+            case 'S':
+                res = n1 - n2;
+                break;
+            case 'M':
+                res = n1 * n2
+                break;
+            case 'D':
+                res = n1 / n2
+                break;
+            default:
+                res = n1 % n2;
+                break;
+        }
+
+
+    document.querySelector('span').innerHTML='<b><i>'+res+'</i></b>';
+
+    }
+</script>

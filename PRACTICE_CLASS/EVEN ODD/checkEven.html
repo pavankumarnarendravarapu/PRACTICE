@@ -1,0 +1,35 @@
+<style>
+
+</style>
+<script>
+
+	function fnCheckEven(){
+		//get Ref
+
+		var noRef=document.querySelector('input:first-child');
+        var resRef=document.querySelector('span');
+		//get value
+
+		var no=noRef.value;
+
+		//check even
+
+		if(no % 2 == 0){
+           resRef.innerText="Given no is Even no";
+           resRef.style.color='red';
+		}else{
+           resRef.innerText="Given no is odd no"
+           resRef.style.color='blue';
+		}
+
+		
+	}
+</script>
+
+<p>
+	<input /> <input type='button' value='check' onclick='fnCheckEven()'/>
+</p> 
+
+<p>
+	<span></span>
+</p>

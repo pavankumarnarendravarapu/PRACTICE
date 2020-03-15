@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="bank.css">
+    <title>KK Bank</title>
+    <link rel="icon" href="bank.jpg">
+    <script src="bank.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Bank Details</h1>
+    </header>
+    <div class="mid">
+        <div class="center">
+            <p>
+                <label>Holder name: &nbsp;</label><input type="text" placeholder="name" id="n1"  autofocus>
+            </p>
+            <p>
+                <label>Account number: &nbsp;</label><input type="text" placeholder="number" id="n2" required>
+            </p>
+            <p>
+                <label>Branch name: &nbsp;</label><input list="branches" name="branch" placeholder="select" id="n3">
+                <datalist id="branches">
+                    <option value="Palakol">
+                    <option value="Rajahmundry">
+                    <option value="Tanuku">
+                    <option value="Bhimavaram">
+                    <option value="Tuni">
+                </datalist>
+            </p>
+            <div class="bu">
+                <input type="button" value="Balance" onclick="fnBl()" id="bl">
+                <input type="button" value="Withdraw" onclick="fnWd()" id="wd">
+                <input type="button" value="Credit" onclick="fnCd()" id="cd">
+            </div>
+            <p>
+                <input type="button" value="Display" onclick="fnDs()" id="ds">
+            </p>
+
+        </div>
+    </div>
+    <span></span>
+    <span></span>
+</body>
+
+</html>

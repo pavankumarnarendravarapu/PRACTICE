@@ -1,0 +1,23 @@
+table,th,td{
+    border: 1px solid black;
+    margin-top: 40px;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 12px 20px;
+}
+body{
+    text-align: center;
+}
+span:last-of-type{
+    color: red;
+    font-size: 2em;
+}
+p:nth-child(1){
+    color: green;
+}
+h1+h1{
+    font-size: 3em;
+}
+p+h1{
+    color: blue
+}

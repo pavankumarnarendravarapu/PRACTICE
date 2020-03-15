@@ -1,0 +1,47 @@
+.nav > .a{
+	margin-right: 18px;
+    letter-spacing: 2px;
+    color: red;
+    font-size: 15px;
+    background-color: antiquewhite;
+    border-top-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+    cursor: pointer;
+    
+}
+.form{
+    background-color: lightblue;
+    display: inline-block;
+    padding: 18px;
+    border-radius: 8px;
+    text-align: left;
+    
+}
+.cen{
+    text-align: center;
+    
+
+}
+.nav{
+    text-align: right;
+    background: antiquewhite;
+    line-height: 40px;
+}
+body{
+    margin: 0;
+}
+.bt{
+
+    border-top-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+    background-color: antiquewhite;
+    padding: 4px;
+    cursor: pointer;
+
+}
+input[type=text], input[type=password] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+  }

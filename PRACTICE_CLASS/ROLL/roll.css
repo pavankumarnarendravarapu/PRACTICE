@@ -1,0 +1,9 @@
+.rotate{
+    height: 90px;
+    width: 90px;
+    border: 2px dotted black;
+    margin-top: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+}
